@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="jquery.mobile/jquery.mobile-1.4.5.min.js"></script>
+<style>
+a:link {
+   text-decoration: none;
+   font-size: 11px;
+   color:#000000;
+}
+</style>
+</head>
+<body>
+	
+<form>
+    <input data-type="search" id="searchForCollapsibleSetChildren">
+</form>
+    <div data-role="collapsibleset" data-filter="true" data-children="> div, > div div ul li" data-inset="true" id="collapsiblesetForFilterChildren" data-input="#searchForCollapsibleSetChildren">
+        <div data-role="collapsible" data-filtertext="Homepage Hummus Animals Cats Dogs Lizards snakes">
+            <h3>Animals</h3>
+            <ul data-role="listview" data-inset="false">
+<li data-filtertext="Hummus"> <a href="../?l=Lbn_admbnda_L4%2CTown%2CLbn_admbnda_L3%2CDiscrit%20%28Kada%29%2CLbn_admbnda_L2%2CGovernorate%20%28Mohafaza%29%2CLbn_admbnda_L1%2CLebanon&bl=EsriTopo&t=wms%3F&c=4014642%2C4010112&hc=1&s=1500000" target="_top">Hummus top relative</a></li>
+<li data-filtertext="Homepage">
+ <a href="https://github.com/qgis/qwc2-demo-app" target="_blank">Homepage gdfgdfgd <br/> jhhghjjjjjjjjj tretreterte nhnhgfhf</a></li>
+<a href="https://github.com/qgis/qwc2-demo-app" target="_blank">Homepage gdfgdfgd jhhghjjjjjjjjj tretreterte nhnhgfhf</a><br/>
+<a href="https://github.com/qgis/qwc2-demo-app" target="_blank">Homepage gdfgdfgd jhhghjjjjjjjjj tretreterte nhnhgfhf</a><br/>
+
+                <li data-filtertext="Animals Cats">Cats</li>
+                <li data-filtertext="Animals Dogs">Dogs</li>
+                <li data-filtertext="Animals Lizards">Lizards</li>
+                <li data-filtertext="Animals Snakes">Snakes</li>
+            </ul>
+        </div>
+        <div data-role="collapsible" data-filtertext="Cars Acura Audi BMW Cadillac">
+            <h3>Cars</h3>
+            <ul data-role="listview" data-inset="false">
+                <li data-filtertext="Cars Acura">Acura</li>
+                <li data-filtertext="Cars Audi">Audi</li>
+                <li data-filtertext="Cars BMW">BMW</li>
+                <li data-filtertext="Cars Cadillac">Cadillac</li>
+            </ul>
+        </div>
+        <div data-role="collapsible" data-filtertext="Planets Earth Jupiter Mars Mercury">
+            <h3>Planets</h3>
+            <ul data-role="listview" data-inset="false">
+                <li data-filtertext="Planets Acura">Earth</li>
+                <li data-filtertext="Planets Jupiter">Jupiter</li>
+                <li data-filtertext="Planets Mars">Mars</li>
+                <li data-filtertext="Planets Mercury">Mercury</li>
+            </ul>
+        </div>
+    </div>
+</body>
